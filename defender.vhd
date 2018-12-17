@@ -737,7 +737,7 @@ process(clock_6n)
 		end if;
 
 		if    hcnt = hcnt_base-2     then hblank <= '1'; 
-		elsif hcnt = hcnt_base+11-64 then hblank <= '0';
+		elsif hcnt = hcnt_base+12-64 then hblank <= '0';
 		end if;
 
 		if    vcnt = 502 then vblank <= '1';   -- 492 ok
